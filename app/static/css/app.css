@@ -17,7 +17,7 @@ html, body, .container, .row, .col-sm-1, .col-sm-4, .col-sm-7, .col-sm-11 {
 
 /* Side bar */
 .col-sm-1 {
-    background-color: rgb(85,66,111);
+    
     padding: 0;
 }
 
@@ -28,6 +28,14 @@ html, body, .container, .row, .col-sm-1, .col-sm-4, .col-sm-7, .col-sm-11 {
 .col-sm-1 li {
     list-style: none;
     line-height: 40px;
+}
+
+.sidebar-nav {
+    background-color: rgb(85,66,111);
+}
+
+.sidebar-nav ol, ul{
+    margin-bottom: 0px;
 }
 
 .sidebar-nav li a {
